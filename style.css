@@ -1,0 +1,275 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'Open Sans', sans-serif;
+}
+/**header-css-start**/
+.header{
+    background:#3B5997;
+    padding:15px 0px;
+}
+.container{
+    width:70%;
+    max-width:1000px;
+    margin:auto;
+}
+.header::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+.logo-area{
+    width:30%;
+    float:left;
+}
+.logo-area img{
+    width:160px;
+    margin-top:8px;
+}
+.login-area{
+    width:70%;
+    float:left;
+    color:white;
+}
+.login-area .email,
+.login-area .password,
+.login-area.login{
+    float:left;
+    margin-right:10px;
+}
+
+.login-area .login{
+    margin-right:0;
+    overflow:hidden;
+}
+
+.login-area label,
+.login-area input{
+    display:block;
+}
+.login-area label{
+    font-size:14px;
+    margin-bottom:5px;
+}
+.login-area input[type="text"],
+.login-area input[type="password"]{
+    font-size:14px;
+    border:1px solid #333;
+    font-weight:300;
+    padding:2px 5px;
+}
+.password a{
+    color:#fff;
+    text-decoration:none;
+    font-size:12px;
+}
+.password a:hover{
+    text-decoration:underline;
+}
+.login input[type="submit"]{
+    border:1px solid #998D9F;
+    padding:3px 10px;
+    color:#fff;
+    background:#333;
+    font-weight:600;
+    margin-top:22px;
+}
+/**header-css-end**/
+/**signup-css-start**/
+.signup-area{
+    padding:20px 0px;
+    background:linear-gradient(#fff,#C1BAB5);
+}
+.signup-area::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+.left-area{
+    float:left;
+    width:55%;
+}
+.left-area p{
+    width:95%;
+    font-weight:700;
+    font-size:20px;
+}
+.left-area img{
+    width:90%;
+}
+.right-area{
+    float:right;
+    width:45%;
+}
+.right-area h2{
+    margin:0;
+    font-size:36px;
+} 
+.right-area h4{
+    font-size:19px;
+    margin:5px 0 10px 0;
+    font-weight:400;
+}
+.right-area form{}
+.right-area input[type="text"],
+.right-area input[type="password"]{
+    width:100%;
+    box-sizing:border-box;
+    padding:8px 10px; 
+    margin:5px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:18px;
+}
+ 
+.full-name{
+    overflow:hidden;
+} 
+.full-name .first-name{
+    width:48%;
+    float:left;
+    margin-right:4%;
+}
+.full-name .surname{
+    width:48%;
+    float:left;
+}
+.birthday {
+    overflow:hidden;
+}
+.birthday h4{
+    margin:0 0 8px 0;
+}
+.birthday .birth-date{
+     width:200px;
+     overflow:hidden;
+     float:left;
+     margin-right:10px;
+}
+.birth-date select{
+    float:left;
+    border:1px solid #ccc;
+    padding:5px;
+   }
+.birth-link{
+    float:left;
+    width:190px;
+}
+.birth-link a{
+    color:black;
+    font-size:14px;
+    text-decoration:none;
+    display:block;
+    line-height:1.3;
+}
+.birth-link a:hover{
+    text-decoration:underline;
+}
+.gender{
+    margin:10px 0;
+}
+.gender input{}
+.gender label{
+    font-weight:400;
+    font-size:20px;
+    color:#1d1d1d;
+}
+.text-box{
+    margin-bottom:20px;
+}
+.text-box p{
+    font-size:14px;
+    width:80%;
+    line-height:1.3;
+}
+.text-box a{
+    text-decoration:none;
+    color:#1d1d1d;
+    font-weight:600;
+}
+.text-box a:hover{
+    text-decoration:underline;
+}
+.btn{
+    margin-bottom:15px;
+}
+.btn input{
+    background:linear-gradient(green,#56D256);
+    border:1px solid #ccc;
+    padding:7px 14px;
+    text-align:center;
+    color:white;
+    min-width:200px;
+    border-radius:5px;
+    font-weight:400;
+    font-size:20px;
+    transition:0.5s;
+}
+.btn input:hover{
+    background:linear-gradient(#56D256,green);
+	box-shadow:inset 5px 5px 15px black;
+    cursor:pointer;
+}
+.business{
+    font-size:15px;
+}
+.business a {
+    font-weight:600;
+    text-decoration:none;
+    color:black;
+}
+.business a:hover{
+    text-decoration:underline;
+}
+/**signup-css-end**/
+/**footer--css-start**/
+.footer-area{
+    padding:30px 0px;
+}
+.footer-area hr{
+    border:0;
+    border-bottom:2px solid #d4d4d4;
+}
+.footer-area ul{
+    margin:0;
+    padding:0;
+}
+.footer-area ul li{
+    list-style-type:none;
+    display:inline;
+}
+.footer-area .top ul li{
+    margin-right:8px;
+}
+.footer-area .middle ul li{
+    margin-right:12px;
+}
+.footer-area .top ul li:last-child,
+.footer-area .middle ul li:last-child{
+    margin-right:0;
+}
+.footer-area .middle{
+    margin-bottom:20px;
+}
+.footer-area ul li a{
+    color:black;
+    text-decoration:none;
+    font-size:13px;
+}
+.footer-area ul li a:hover{
+    text-decoration:underline;
+    }
+.footer-area .top ul li:first-child a {
+    color:#998D9F;
+    
+}
+.footer-area .top ul li:last-child a{
+    border:1px solid #999;
+    padding:0px 4px;
+}
+.footer-area .bottom span{
+    color:#999;
+    font-size:13px;
+    
+}
+/**footer--css-end**/
